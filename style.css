@@ -1,4 +1,43 @@
+h1,
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+p,
+li {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#header-text {
+  display: inline;
+}
+
+#tamid-logo {
+  height: 40px;
+  float: right;
+}
+
 .banner-container {
+  background-color: gray;
+  color: white;
+  width: 100vw;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.profile-pic {
+  max-width: 200px;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(229, 229, 229);
+  width: 100vw;
 }
 
 /* Gallery */
@@ -9,29 +48,30 @@
   grid-gap: 15px;
 }
 
-.tamidPic {
-  max-width: 40%;
-  max-height: 40%;
+.tamid-pic {
+  max-width: 40vw;
+  max-height: 40vw;
   object-fit: cover;
 }
 
-.tamidInfo {
+.tamid-info {
   line-height: 3rem;
   font-size: 2rem;
   font-family: op;
 }
 
-.tamidPic2 {
+.tamid-pic2 {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
 }
 
-.tamidFlex2 {
+.tamid-flex2 {
   flex-direction: row-reverse;
 }
 
-.tamidFlex {
+.tamid-flex {
+  margin-top: 30px;
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -104,5 +144,3 @@
   /* grid-column: 5 / span 4; */
   /* grid-row: 6 / span 3; */
 }
-
-
