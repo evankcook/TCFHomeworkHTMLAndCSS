@@ -6,7 +6,9 @@ h2 {
 
 p,
 li {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.75rem;
 }
 
 #header-text {
@@ -57,12 +59,6 @@ li {
 .tamid-info {
   line-height: 3rem;
   font-size: 2rem;
-}
-
-.fontInfo {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif;
-  font-size: 1.75rem;
 }
 
 .tamid-pic2 {
